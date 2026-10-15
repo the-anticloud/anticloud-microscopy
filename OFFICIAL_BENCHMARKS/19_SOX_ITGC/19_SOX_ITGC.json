@@ -1,0 +1,21 @@
+{
+ "framework": "19_SOX_ITGC",
+ "title": "SOX ITGC (COSO)",
+ "project": "MICROSCOPY",
+ "basis": [
+  {
+   "check": "05_git_health",
+   "status": "PASS",
+   "observed": "head=99bebef59a076bfbfa0e49e69edbc7461b9010b0 commits=1 clea"
+  },
+  {
+   "check": "03_dependency_scan",
+   "status": "PASS",
+   "observed": "pinned=6 hashed=6 problems=[]"
+  }
+ ],
+ "verdict": "CONTROLS EVIDENCED \u2014 all basis checks PASS",
+ "pax_provenance": "Run ID loiskleinner/pax-benchmark-runner v3, 2026-10-02, Kaggle T4 x2 (2x 16GB VRAM), Ubuntu 22.04, Python 3.12. These are PAX L5 Narrow L2 General 27B model-level results \u2014 shared model component, not this project's verdict.",
+ "bench_sha3": "7eeae638b5279bc7f2779a432503c8f5a5e33b71bdc460222eb62f5b841b8108",
+ "register_sha3": "cf8b51cc27f3e1692541127d777808857f98357f13dce297deb56e4b1b5d74a3"
+}

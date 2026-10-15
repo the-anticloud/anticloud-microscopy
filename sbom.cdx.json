@@ -1,0 +1,38 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:5facda8c-033d-54da-89d5-303dcabdd825",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-05T17:04:58Z",
+    "component": {
+      "type": "application",
+      "name": "MICROSCOPY",
+      "version": "afc20d1d7405",
+      "bom-ref": "pkg:generic/anticloud/MICROSCOPY@afc20d1d7405",
+      "purl": "pkg:generic/anticloud/MICROSCOPY@afc20d1d7405",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "afc20d1d74053fe1d923274ad4d8b0caf470d1ef"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/IBM/MicroscoPy"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": []
+}
